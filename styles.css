@@ -16,9 +16,15 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #fff;
+    background-color: #303c6c;
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-container > span {
+    align-self: center;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .section {
@@ -39,11 +45,34 @@ body {
     margin-top: 0;
 }
 
+ul {
+    background-color: #fbe8a6;
+    padding: 15px 20px;
+    color: black;
+}
+
+li {
+    background-color: #b4dfe5;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+ol {
+    background-color: #fbe8a6;
+    padding: 15px 20px;
+    color: black;
+}
+
 .sub-section p {
     background-color: #ffcc99;
     padding: 10px;
     color: #333;
     border-radius: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
 
 .footer {
