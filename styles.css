@@ -5,14 +5,14 @@ body {
     background-color: #f0f0f0;
 }
 
-.header {
+header {
     background-color: #ff9999;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
-.main-container {
+main {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -21,28 +21,35 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.main-container > span {
+main > span {
     align-self: center;
     padding-bottom: 10px;
     color: white;
 }
 
-.section {
+section {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #99ccff;
     color: white;
 }
 
-.sub-section {
+section div {
     margin-top: 10px;
     padding: 15px;
     background-color: #66cc66;
     color: white;
 }
 
-.sub-section h3 {
+section div h3 {
     margin-top: 0;
+}
+
+section p {
+    background-color: #ffcc99;
+    padding: 10px;
+    color: #333;
+    border-radius: 5px;
 }
 
 ul {
@@ -61,13 +68,6 @@ ol {
     background-color: #fbe8a6;
     padding: 15px 20px;
     color: black;
-}
-
-.sub-section p {
-    background-color: #ffcc99;
-    padding: 10px;
-    color: #333;
-    border-radius: 5px;
 }
 
 img {
